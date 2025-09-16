@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+<label for="">Nome</label>
+<input type="text" value="" placeholder="Digite seu nome" required><br><br>
+
+<label for="">Senha</label>
+<input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+<br><br>
+<label for="">CPF</label>
+<input type="number"  name="CPF" id="CPF" placeholder="Digite seu CPF">
+
+<br><br>
+<label for="">Linguagens de Programação</label><br><br>
+<input type="checkbox" name="C#" id="C#"><label for="C#">C#</label><br>
+<input type="checkbox" name="Php" id="Php"><label for="Php">Php</label><br>
+<input type="checkbox" name="Java" id="Java"><label for="Java">Java</label><br>
+<input type="checkbox" name="Lua" id="Lua"><label for="Lua">Lua</label><br>
+<input type="checkbox" name="JavaScript" id="JavaScript"><label for="JavaScript">JavaScript</label><br>
+<br>
+<label for="">Sexo</label>
+<br>
+<input type="radio" name="Sexo" id="Sexo" value="Masculino"><label for="Masculino">Masculino</label>
+<input type="radio" name="Sexo" id="Sexo" value="Feminino"><label for="Feminino">Feminino</label>
+<input type="radio" name="Sexo" id="Sexo" value="Outros"><label for="Outros">Fusca</label>
+
+<br><br>
+<label for="">descrição</label><br>
+<textarea name="" id="" cols="30" rows="10"></textarea ><br>
+
+<br><label for="">estado</label>
+<select name="estado" id="estado" required>
+<option value="SP">SP</option>
+<option value="MG">MG</option>
+<option value="AC">AC</option>
+<option value="AP">AP</option>
+<option value="AM">AM</option>
+<option value="BA">BA</option>
+<option value="CE">CE</option>
+<option value="DF">DF</option>
+<option value="ES">ES</option>
+<option value="GO">GO</option>
+<option value="MA">MA</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Enviar">
+    </form>
+</div>
+<!-- ia -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.classList.add("animate");
+});
+</script>
+</body>
+</html>
